@@ -3,14 +3,8 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/firestore'
 
-// Update firebase project configs herer
 export const firebaseConfig = {
-  apiKey: 'AIzaSyCLdhagt1Fpi-62eELzi_sKVEUZWpxGENQ',
-  authDomain: 'alpha-a2b7f.firebaseapp.com',
-  projectId: 'alpha-a2b7f',
-  storageBucket: 'alpha-a2b7f.appspot.com',
-  messagingSenderId: '716409364692',
-  appId: '1:716409364692:web:2773ad62d7a6823cc8db41',
+  // Put firebase project configs here
 }
 
 export class Fuego {
