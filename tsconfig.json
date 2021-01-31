@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@css/global/*": ["src/css/global/*"],
+      "@css/pages/*": ["src/css/module/pages/*"],
+      "@css/parts/*": ["src/css/module/components/parts/*"],
+      "@css/sections/*": ["src/css/module/components/sections/*"],
+      "@css/layouts/*": ["src/css/module/components/layouts/*"],
+      "@redux/*": ["src/redux/*"],
+      "@actions/*": ["src/redux/slices/*"],
+      "@db": ["src/db"],
+      "@fn/*": ["src/fn/*"],
+      "@layouts/*": ["src/components/layouts/*"],
+      "@sections/*": ["src/components/sections/*"],
+      "@parts/*": ["src/components/parts/*"],
+      "@typings/*": ["src/typings/*"],
+      "@lang": ["src/lang"]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": ["next-env.d.ts", "src/**/*", "pages/**/*", "public/**/*"],
+  "exclude": ["node_modules"]
+}
